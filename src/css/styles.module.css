@@ -17,3 +17,20 @@ header input {
     font-size: 20px;
     margin: 20px 0;
 }
+
+.news_item {
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid grey;
+}
+
+.news_item:hover {
+    color: red;
+}
+
+@media(max-width:500px) {
+    .news_item {
+        color: blue;
+    }
+
+}
